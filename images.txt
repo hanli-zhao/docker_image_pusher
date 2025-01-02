@@ -1,4 +1,5 @@
 #支持私库
 k8s.gcr.io/autoscaling/cluster-autoscaler:v1.29.3
+registry.k8s.io/autoscaling/cluster-autoscaler:v1.30.3
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
