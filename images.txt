@@ -1,15 +1,5 @@
-#spinnaker update
-us-docker.pkg.dev/spinnaker-community/docker/clouddriver:5.90.1
-us-docker.pkg.dev/spinnaker-community/docker/echo:2.43.1
-us-docker.pkg.dev/spinnaker-community/docker/deck:3.19.1
-us-docker.pkg.dev/spinnaker-community/docker/fiat:1.51.1
-us-docker.pkg.dev/spinnaker-community/docker/front50:2.37.1
-us-docker.pkg.dev/spinnaker-community/docker/gate:6.64.1
-us-docker.pkg.dev/spinnaker-community/docker/igor:4.18.1
-us-docker.pkg.dev/spinnaker-community/docker/kayenta:2.42.1
-us-docker.pkg.dev/spinnaker-community/docker/orca:8.57.1
-us-docker.pkg.dev/spinnaker-community/docker/rosco:1.22.1
-us-docker.pkg.dev/spinnaker-community/docker/monitoring-daemon:1.4.0
+#halyard update
+us-docker.pkg.dev/spinnaker-community/docker/halyard:1.65.0
 
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
