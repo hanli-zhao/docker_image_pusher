@@ -1,6 +1,4 @@
-#cluster-autoscaler
-registry.k8s.io/autoscaling/cluster-autoscaler:v1.31.2
-registry.k8s.io/autoscaling/cluster-autoscaler:v1.32.1
+ubuntu:20.04
 
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
