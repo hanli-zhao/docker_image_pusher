@@ -1,10 +1,12 @@
-mirror.gcr.io/aquasec/trivy-operator:0.24.1
-mirror.gcr.io/aquasec/trivy:0.59.1
+# install successed
+# mirror.gcr.io/aquasec/trivy-operator:0.24.1
+# mirror.gcr.io/aquasec/trivy:0.59.1
 
+# install faild
 # ghcr.io/aquasecurity/trivy-db
 # mirror.gcr.io/aquasec/trivy-java-db
+# mirror.gcr.io/aquasec/trivy-checks:1
 
-mirror.gcr.io/aquasec/trivy-checks:1
 ghcr.io/aquasecurity/node-collector:0.3.1
 
 #支持指定架构
