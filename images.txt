@@ -1,13 +1,9 @@
-# install successed
-# mirror.gcr.io/aquasec/trivy-operator:0.24.1
-# mirror.gcr.io/aquasec/trivy:0.59.1
-
-# install faild
-# ghcr.io/aquasecurity/trivy-db
-# mirror.gcr.io/aquasec/trivy-java-db
-# mirror.gcr.io/aquasec/trivy-checks:1
-
-ghcr.io/aquasecurity/node-collector:0.3.1
+quay.io/prometheus/alertmanager:v0.28.1
+registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.6.0
+quay.io/prometheus-operator/prometheus-config-reloader:v0.83.0
+quay.io/prometheus-operator/prometheus-operator:v0.83.0
+quay.io/prometheus/prometheus:v3.5.0
+registry.k8s.io/kube-state-metrics/kube-state-metrics:v2.16.0
 
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
