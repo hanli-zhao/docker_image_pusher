@@ -1,9 +1,4 @@
-quay.io/prometheus/alertmanager:v0.28.1
-registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.6.0
-quay.io/prometheus-operator/prometheus-config-reloader:v0.83.0
-quay.io/prometheus-operator/prometheus-operator:v0.83.0
-quay.io/prometheus/prometheus:v3.5.0
-registry.k8s.io/kube-state-metrics/kube-state-metrics:v2.16.0
+docker.io/otel/opentelemetry-collector-contrib:0.135.0
 
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
