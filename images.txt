@@ -1,4 +1,4 @@
-registry.k8s.io/autoscaling/cluster-autoscaler:v1.33.4
+registry.k8s.io/autoscaling/cluster-autoscaler:v1.33.0
 
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
