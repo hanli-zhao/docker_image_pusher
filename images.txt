@@ -1,4 +1,4 @@
-docker.io/otel/opentelemetry-collector-contrib:0.135.0
+registry.k8s.io/autoscaling/cluster-autoscaler:v1.33.4
 
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
