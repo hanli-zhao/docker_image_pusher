@@ -1,4 +1,7 @@
-registry.k8s.io/autoscaling/cluster-autoscaler:v1.33.0
+docker.io/grafana/tempo:2.9.0
+docker.io/nginxinc/nginx-unprivileged:1.27-alpine
+docker.io/grafana/tempo-query:2.9.0
+docker.io/memcached:1.6.39-alpine
 
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
