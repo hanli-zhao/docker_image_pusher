@@ -1,12 +1,4 @@
-#docker.io/otel/opentelemetry-collector-contrib:0.136.0
-#ghcr.io/open-telemetry/opentelemetry-operator/opentelemetry-operator:0.144.0
-#ghcr.io/open-telemetry/opentelemetry-collector-releases/opentelemetry-collector-k8s:0.144.0
-#quay.io/brancz/kube-rbac-proxy:v0.20.0
-#docker.io/busybox:latest
-
-ghcr.io/kedacore/keda:2.18.1
-ghcr.io/kedacore/keda-metrics-apiserver:2.18.1
-ghcr.io/kedacore/keda-admission-webhooks:2.18.1
+--platform=linux/arm64 registry.k8s.io/autoscaling/cluster-autoscaler:v1.33.4
 
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
