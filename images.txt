@@ -1,4 +1,39 @@
---platform=linux/arm64 registry.k8s.io/autoscaling/cluster-autoscaler:v1.33.4
+--platform linux/arm64 docker.io/bitnami/redis:7.4-debian-12
+--platform linux/arm64 docker.io/grafana/grafana:11.5.0
+--platform linux/arm64 docker.io/jupyterhub/configurable-http-proxy:4.6.1
+--platform linux/arm64 docker.io/library/busybox:1.37.0
+--platform linux/arm64 docker.io/library/nginx:1.27-alpine
+--platform linux/arm64 docker.io/otel/opentelemetry-collector-contrib:0.135.0
+--platform linux/arm64 ghcr.io/aquasecurity/node-collector:0.3.1
+--platform linux/arm64 ghcr.io/aquasecurity/trivy:0.59.1
+--platform linux/arm64 ghcr.io/aquasecurity/trivy-operator:0.24.1
+--platform linux/arm64 ghcr.io/kedacore/keda:2.19.0
+--platform linux/arm64 ghcr.io/kedacore/keda-admission-webhooks:2.19.0
+--platform linux/arm64 ghcr.io/kedacore/keda-metrics-apiserver:2.19.0
+--platform linux/arm64 ghcr.io/open-telemetry/opentelemetry-collector-releases/opentelemetry-collector-k8s:0.144.0
+--platform linux/arm64 ghcr.io/open-telemetry/opentelemetry-operator/opentelemetry-operator:0.144.0
+--platform linux/arm64 nginx-plugin-server/custom-spinnaker-nginx-plugins:1.28.0-alpine
+--platform linux/arm64 quay.io/brancz/kube-rbac-proxy:v0.20.0
+--platform linux/arm64 quay.io/jupyterhub/k8s-hub:4.0.2
+--platform linux/arm64 quay.io/jupyterhub/k8s-network-tools:4.0.2
+--platform linux/arm64 quay.io/prometheus-operator/prometheus-config-reloader:v0.83.0
+--platform linux/arm64 quay.io/prometheus-operator/prometheus-operator:v0.83.0
+--platform linux/arm64 quay.io/prometheus/alertmanager:v0.28.1
+--platform linux/arm64 quay.io/prometheus/node-exporter:v1.9.1
+--platform linux/arm64 quay.io/prometheus/prometheus:v3.5.0
+--platform linux/arm64 us-docker.pkg.dev/spinnaker-community/docker/clouddriver:5.90.1
+--platform linux/arm64 us-docker.pkg.dev/spinnaker-community/docker/deck:3.19.1
+--platform linux/arm64 us-docker.pkg.dev/spinnaker-community/docker/echo:2.43.1
+--platform linux/arm64 us-docker.pkg.dev/spinnaker-community/docker/fiat:1.51.1
+--platform linux/arm64 us-docker.pkg.dev/spinnaker-community/docker/front50:2.37.1
+--platform linux/arm64 us-docker.pkg.dev/spinnaker-community/docker/gate:6.64.1
+--platform linux/arm64 us-docker.pkg.dev/spinnaker-community/docker/halyard:1.65.0
+--platform linux/arm64 us-docker.pkg.dev/spinnaker-community/docker/igor:4.18.1
+--platform linux/arm64 us-docker.pkg.dev/spinnaker-community/docker/kayenta:2.42.1
+--platform linux/arm64 us-docker.pkg.dev/spinnaker-community/docker/monitoring-daemon:1.4.0
+--platform linux/arm64 us-docker.pkg.dev/spinnaker-community/docker/orca:8.57.1
+--platform linux/arm64 us-docker.pkg.dev/spinnaker-community/docker/rosco:1.22.1
+--platform linux/arm64 us-docker.pkg.dev/spinnaker-community/redis/redis-cluster:v2
 
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
