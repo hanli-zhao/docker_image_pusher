@@ -1,4 +1,5 @@
---platform linux/arm64 registry.k8s.io/sig-storage/snapshot-controller:v6.0.1
+--platform linux/arm64 mirror.gcr.io/aquasec/trivy:0.59.1
+--platform linux/arm64 mirror.gcr.io/aquasec/trivy-operator:0.24.1
 
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
