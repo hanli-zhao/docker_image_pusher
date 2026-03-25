@@ -1,9 +1,9 @@
---platform linux/arm64 docker.io/bitnami/redis:7.4-debian-12
---platform linux/arm64 docker.io/grafana/grafana:11.5.0
---platform linux/arm64 docker.io/jupyterhub/configurable-http-proxy:4.6.1
---platform linux/arm64 docker.io/library/busybox:1.37.0
---platform linux/arm64 docker.io/library/nginx:1.27-alpine
---platform linux/arm64 docker.io/otel/opentelemetry-collector-contrib:0.135.0
+--platform linux/arm64 redis:7.4-debian-12
+--platform linux/arm64 grafana:11.5.0
+--platform linux/arm64 configurable-http-proxy:4.6.1
+--platform linux/arm64 busybox:1.37.0
+--platform linux/arm64 nginx:1.27-alpine
+--platform linux/arm64 opentelemetry-collector-contrib:0.135.0
 --platform linux/arm64 ghcr.io/aquasecurity/node-collector:0.3.1
 --platform linux/arm64 ghcr.io/aquasecurity/trivy:0.59.1
 --platform linux/arm64 ghcr.io/aquasecurity/trivy-operator:0.24.1
