@@ -1,4 +1,4 @@
---platform linux/arm64 registry.k8s.io/autoscaling/cluster-autoscaler:v1.33
+--platform linux/arm64 registry.k8s.io/autoscaling/cluster-autoscaler:v1.33.0
 --platform linux/arm64 registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.6.0
 --platform linux/arm64 registry.k8s.io/kube-scheduler:v1.26.11
 --platform linux/arm64 registry.k8s.io/kube-state-metrics/kube-state-metrics:v2.16.0
