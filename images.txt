@@ -1,9 +1,4 @@
---platform linux/arm64 ghcr.io/kedacore/keda:2.18.1
---platform linux/arm64 ghcr.io/kedacore/keda-admission-webhooks:2.18.1
---platform linux/arm64 ghcr.io/kedacore/keda-metrics-apiserver:2.18.1
---platform linux/arm64 ghcr.io/open-telemetry/opentelemetry-collector-releases/opentelemetry-collector-k8s:0.144.0
---platform linux/arm64 ghcr.io/open-telemetry/opentelemetry-operator/opentelemetry-operator:0.144.0
---platform linux/arm64 nginx-plugin-server/custom-spinnaker-nginx-plugins:1.28.0-alpine
+--platform linux/arm64 docker.io/nginx-plugin-server/custom-spinnaker-nginx-plugins:1.28.0-alpine
 --platform linux/arm64 quay.io/brancz/kube-rbac-proxy:v0.20.0
 --platform linux/arm64 quay.io/jupyterhub/k8s-hub:3.2.1
 --platform linux/arm64 quay.io/jupyterhub/k8s-network-tools:3.2.1
