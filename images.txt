@@ -1,4 +1,4 @@
---platform linux/arm64 bitnamilegacy/redis:5.0.7-debian-10-r0
+--platform linux/arm64 bitnamilegacy/redis:6.2.16-debian-12-r2
 
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
