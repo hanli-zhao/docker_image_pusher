@@ -1,4 +1,4 @@
---platform linux/arm64 nginxinc/nginx-unprivileged:1.27-alpine
+--platform linux/arm64 quay.io/bitnami/redis:5.0.7-debian-10-r0
 
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
