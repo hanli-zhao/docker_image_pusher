@@ -1,11 +1,5 @@
---platform linux/arm64 ghcr.io/open-telemetry/opentelemetry-operator/opentelemetry-operator:0.147.0
-ghcr.io/open-telemetry/opentelemetry-operator/opentelemetry-operator:0.147.0
-
---platform linux/arm64 ghcr.io/open-telemetry/opentelemetry-collector-releases/opentelemetry-collector-k8s:0.147.0
-ghcr.io/open-telemetry/opentelemetry-collector-releases/opentelemetry-collector-k8s:0.147.0
-
---platform linux/arm64 docker.io/otel/opentelemetry-collector-contrib:0.147.0
-docker.io/otel/opentelemetry-collector-contrib:0.147.0
+--platform linux/arm64 docker.io/grafana/grafana:12.2.0
+docker.io/grafana/grafana:12.2.0
 
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
